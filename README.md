@@ -10,16 +10,20 @@ Works with Cursor, Claude Code, Codex, and similar agents that load `SKILL.md` f
 
 ## Install
 
-```powershell
-git clone https://github.com/dillon-LACT/adversarial-review-skill.git "$env:USERPROFILE\.cursor\skills\adversarial-review"
-```
-
-Claude Code / Codex mirrors:
+Clone this repository into an agent skills directory (replace `<owner>` with the GitHub org or user that hosts the fork or upstream):
 
 ```powershell
-git clone https://github.com/dillon-LACT/adversarial-review-skill.git "$env:USERPROFILE\.claude\skills\adversarial-review"
-git clone https://github.com/dillon-LACT/adversarial-review-skill.git "$env:USERPROFILE\.codex\skills\adversarial-review"
+git clone https://github.com/<owner>/adversarial-review-skill.git "$env:USERPROFILE\.cursor\skills\adversarial-review"
 ```
+
+Optional mirrors for Claude Code / Codex:
+
+```powershell
+git clone https://github.com/<owner>/adversarial-review-skill.git "$env:USERPROFILE\.claude\skills\adversarial-review"
+git clone https://github.com/<owner>/adversarial-review-skill.git "$env:USERPROFILE\.codex\skills\adversarial-review"
+```
+
+Or copy `SKILL.md` into `.cursor/skills/adversarial-review/` (or `.claude` / `.codex`) at the project or user level.
 
 ## Usage
 
