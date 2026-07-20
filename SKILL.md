@@ -152,7 +152,7 @@ not a dead packet.
 Clone into an agent skills directory (pick the tool you use):
 
 ```powershell
-git clone https://github.com/dillon-LACT/adversarial-review-skill.git "$env:USERPROFILE\.cursor\skills\adversarial-review"
+git clone https://github.com/<owner>/adversarial-review-skill.git "$env:USERPROFILE\.cursor\skills\adversarial-review"
 # optional mirrors:
 # git clone ... "$env:USERPROFILE\.claude\skills\adversarial-review"
 # git clone ... "$env:USERPROFILE\.codex\skills\adversarial-review"
